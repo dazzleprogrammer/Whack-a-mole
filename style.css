@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 4, 59);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* width: 50rem; */
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.main h1{
+    font-size: 54px;
+    color: aliceblue;
+}
+
+.main h2{
+    display: inline-block;
+    background-color: rgba(191, 221, 233, 0.494);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 12px 5px;
+}
+
+button{
+    display: inline-block;
+    background-color: rgba(128, 113, 246, 0.42);
+    border-radius: 20px;
+    width: 12rem;
+    margin: 6px;
+    padding: 12px 5px;
+    box-shadow: 2px 2px 2px 2px;
+    color: rgb(98, 148, 228); 
+    /* border: none; */
+    
+}
+
+#pauseGame{
+    display: none;
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(215, 239, 239, 0.739);
+    color: black;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mole{
+    background: url('mole.png');
+    background-size: cover;
+}
+
+
+
+
+.square{
+    background-color: rgba(128, 113, 246, 0.42);
+    border-radius: 20px;
+    width: 200px;
+    height: 180px;
+    border: 4px solid white;
+    margin: 10px;
+    padding: 12px 5px;
+    box-shadow: 2px 2px 2px 2px;
+    color: rgb(98, 148, 228); 
+    /* border: none; */
+
+}
